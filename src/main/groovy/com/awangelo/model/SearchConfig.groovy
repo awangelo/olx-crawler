@@ -8,6 +8,6 @@ final class SearchConfig {
     int paginasParaLer
 
     boolean isValid() {
-        return estado && termoBusca && menorPreco && paginasParaLer > 0
+        estado && termoBusca && paginasParaLer > 0
     }
 }
