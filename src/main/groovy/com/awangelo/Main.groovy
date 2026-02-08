@@ -3,7 +3,7 @@ package com.awangelo
 import com.awangelo.model.SearchConfig
 import com.awangelo.service.CrawlerService
 
-static void main() {
+static void main(String[] args) {
     SearchConfig searchConfig = new SearchConfig(
         estado: 'ce',
         regiao: 'grande-fortaleza',
