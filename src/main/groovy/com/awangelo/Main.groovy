@@ -13,7 +13,5 @@ static void main(String[] args) {
     )
     CrawlerService crawler = new CrawlerService(searchConfig)
 
-    println "SearchConfig: ${searchConfig}"
-    println "Crawler: ${crawler}"
-    println "Crawler initialized for base URI (paginasParaLer=${searchConfig.paginasParaLer})"
+    println crawler.coletarDados()
 }
