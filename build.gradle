@@ -12,6 +12,7 @@ repositories {
 dependencies {
     implementation 'org.codehaus.groovy:groovy-all:2.5.23'
     implementation 'io.github.http-builder-ng:http-builder-ng-core:1.0.4'
+    implementation 'org.jsoup:jsoup:1.22.1'
 }
 
 test {
