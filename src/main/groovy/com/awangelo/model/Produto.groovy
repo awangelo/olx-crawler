@@ -6,6 +6,7 @@ import groovy.transform.Canonical
 final class Produto {
     String titulo
     BigDecimal valor
+    static BigDecimal media
     String endereco
     String url
 }
